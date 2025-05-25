@@ -36,7 +36,7 @@ lastly, create a config set in the DynamoDB table `ServerlessDynamicDnsStack-Con
 }
 ```
 
-# To update your DNS record with your current IP address
+## To update your DNS record with your current IP address
 ````typescript
 const { createHash } = await import("node:crypto");
 
